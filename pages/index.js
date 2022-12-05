@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import { gql, GraphQLClient } from 'graphql-request'
 import Section from '../components/Section'
 import NavBar from '../components/NavBar'
@@ -110,7 +109,8 @@ export default function Home({videos, account}) {
               <Image
                 src={disneyLogo}
                 alt='Video'
-                
+                width='auto'
+                height='auto'
               />
             </div>
           </Link>
@@ -120,6 +120,8 @@ export default function Home({videos, account}) {
               <Image
                 src={pixar}
                 alt='Video'
+                width='auto'
+                height='auto'
               />
             </div>
           </Link>
@@ -129,6 +131,8 @@ export default function Home({videos, account}) {
               <Image
                 src={marvel}
                 alt='Video'
+                width='auto'
+                height='auto'
               />
             </div>
           </Link>
@@ -137,6 +141,8 @@ export default function Home({videos, account}) {
               <Image
                 src={natGeo}
                 alt='Video'
+                width='auto'
+                height='auto'
               />
             </div>
           </Link>
@@ -146,6 +152,8 @@ export default function Home({videos, account}) {
               <Image
                 src={starWars}
                 alt='Video'
+                width='auto'
+                height='auto'
               />
             </div>
           </Link>
