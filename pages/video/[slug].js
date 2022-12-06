@@ -1,4 +1,4 @@
-import React,{useState, useEffect, useRef} from 'react'
+import React,{useRef} from 'react'
 import { gql, GraphQLClient } from 'graphql-request'
 import useVideoPlayer from '../../hooks/useVideoPlayer'
 import { BsFillPlayFill } from 'react-icons/bs'

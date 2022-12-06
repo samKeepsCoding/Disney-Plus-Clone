@@ -122,6 +122,7 @@ export default function Home({videos, account}) {
                 alt='Video'
                 width='auto'
                 height='auto'
+                className='w-full'
               />
             </div>
           </Link>
@@ -133,6 +134,7 @@ export default function Home({videos, account}) {
                 alt='Video'
                 width='auto'
                 height='auto'
+                className='w-full'
               />
             </div>
           </Link>
@@ -143,6 +145,7 @@ export default function Home({videos, account}) {
                 alt='Video'
                 width='auto'
                 height='auto'
+                className='w-full'
               />
             </div>
           </Link>
@@ -154,6 +157,7 @@ export default function Home({videos, account}) {
                 alt='Video'
                 width='auto'
                 height='auto'
+                className='w-full'
               />
             </div>
           </Link>

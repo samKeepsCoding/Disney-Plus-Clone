@@ -35,7 +35,7 @@ a {
   }
 } */
 
-input[type="range"] {
+/* input[type="range"] {
   -webkit-appearance: none;
   background: rgba(255, 255, 255, 0.2);
   height: 4px;
@@ -50,4 +50,4 @@ input[type="range"]::-webkit-slider-thumb {
 
 input[type="range"]::-moz-range-progress {
   background: white;
-}
+} */
